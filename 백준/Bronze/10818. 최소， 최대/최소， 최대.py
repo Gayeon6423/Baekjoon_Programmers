@@ -1,4 +1,5 @@
-N = int(input())
-li = list(map(int, input().split()))
+import sys
+N = int(sys.stdin.readline())
+li = list(map(int, sys.stdin.readline().split()))
 
 print(min(li), max(li))
