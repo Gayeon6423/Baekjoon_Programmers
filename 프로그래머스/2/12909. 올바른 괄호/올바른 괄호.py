@@ -21,3 +21,14 @@ def solution(s):
         # for문 끝났는데 stack 비어있지 않다면
         return False
     return True
+
+# def solution(s):
+#     stack = []
+#     for i in s:
+#         if i == '(':
+#             stack.append(i)
+#         else i == ')':
+#             if stack == []:
+#                 return False
+#             else:
+#                 stack.pop()
